@@ -6,8 +6,6 @@ import { dirname } from 'path'
 
 const __dirname = path.resolve()
 
-console.log(path.join(__dirname,  'passwords.txt'))
-
 const savePassword =  (password)=>{
     fs.open(path.join(__dirname, 'passwords.txt'), 'a', 666, (e, id)=>{
         fs.write(id, password + os.EOL, null, 'utf-8', ()=>{
