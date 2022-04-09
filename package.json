@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clipboardy": "^3.0.0",
+    "commander": "^9.1.0"
+  },
+  "name": "passwordgen",
+  "version": "1.0.0",
+  "description": "Simple Password Generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sibasis Palo",
+  "license": "MIT", 
+  "type": "module"
+}
