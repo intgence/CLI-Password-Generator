@@ -33,5 +33,5 @@ if(save){
 clipboard.writeSync(generatedPassword)
 
 //Output Generated
-log(chalk.blue('Password generated: '))
+log(chalk.blue('Password generated!'))
 log(chalk.yellow('Password copied to Clipboard!'))
